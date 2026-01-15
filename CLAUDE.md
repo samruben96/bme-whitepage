@@ -56,6 +56,15 @@ Single-file CLI (`main.py`) with async parallel processing:
 
 One row per input record with single best owner match.
 
+## Test Input File
+
+**Primary test file**: `/Users/samruben/Downloads/InsuranceX_50+.csv`
+
+Use this file for all testing going forward:
+```bash
+python main.py /Users/samruben/Downloads/InsuranceX_50+.csv -o output.csv --limit 10 -v
+```
+
 ## TODO: Whitepages Integration
 
 Whitepages enrichment is currently disabled (free trial limited to 50 lookups).
